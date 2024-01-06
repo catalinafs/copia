@@ -1,12 +1,12 @@
 # ContenTree
 
-**ContenTree** es un servicio que ofrece **linktrees personalizados** y **hechos a medida**. Con ContenTree, puedes crear un enlace personalizado que agrupe todos tus contenidos y recursos digitales de manera **única** y **adaptada** a tus necesidades. 
+**ContenTree** is a service that offers **personalized** and **tailored linktrees**. With ContenTree, you can create a personalized link that groups all your content and digital resources in a **unique** way **adapted to your needs**.
 
-Esto significa que puedes tener un **diseño único** que refleje tu identidad y te **diferencie de los demás**. Ya sea que seas un creador de contenido, un empresario o alguien que solo quiere organizar y compartir múltiples enlaces en un solo lugar, **ContenTree es la opción ideal para ti**.
+This means you can have a **unique design** that reflects your identity and **differentiates you from others**. Whether you're a content creator, an entrepreneur, or someone who just wants to organize and share multiple links in one place, **ContenTree is the ideal option for you**.
 
-**¡Prueba este servicio personalizado y lleva tu estrategia digital al siguiente nivel!**
+**Try this personalized service and take your digital strategy to the next level!**
 
-[**Contactanos**](https://www.instagram.com/contentcraft_studio) para agendar una reunion y estar a dos pasos de tener tu ContenTree.
+[**Contact us**](https://www.instagram.com/contentcraft_studio) to schedule a meeting and be two steps away from having your ContenTree.
 
 ## ContenTree made by us
 
