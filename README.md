@@ -10,5 +10,5 @@ Esto significa que puedes tener un **diseño único** que refleje tu identidad y
 
 | Company                                                         | ContenTree                                                                             |
 | :-------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
-| [*ContentCraft*](https://www.instagram.com/contentcraft_studio) | [https://contentree.vercel.app/](https://contentree.vercel.app/)                       |
-| [*InnoGrowth Consulting*](https://innogrowth.vercel.app/)       | [https://contentree.vercel.app/Innogrowth/](https://contentree.vercel.app/Innogrowth/) |
+| [*`ContentCraft`*](https://www.instagram.com/contentcraft_studio) | [https://contentree.vercel.app/](https://contentree.vercel.app/)                       |
+| [*`InnoGrowth Consulting`*](https://innogrowth.vercel.app/)       | [https://contentree.vercel.app/Innogrowth/](https://contentree.vercel.app/Innogrowth/) |
