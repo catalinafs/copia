@@ -10,7 +10,7 @@ This means you can have a **unique design** that reflects your identity and **di
 
 ## ContenTree made by us
 
-| Company                                                               | ContenTree                                                                               |
+| Company                                                               | ContenTree Links                                                                         |
 | :-------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
 | [***`ContentCraft`***](https://www.instagram.com/contentcraft_studio) | [https://contentree.vercel.app/](https://contentree.vercel.app/)                         |
 | [***`InnoGrowth Consulting`***](https://innogrowth.vercel.app/)       | [https://contentree.vercel.app/Innogrowth/](https://contentree.vercel.app/Innogrowth/)   |
