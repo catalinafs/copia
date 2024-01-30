@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --bgColor: #252525;
+    --white: #eaeaea;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Poppins", sans-serif;
+    background-image: url('../img/background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--bgColor);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+body {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header picture img {
+    width: 245px;
+    border: 5px solid var(--white);
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 28px;
+}
+
+.go {
+    width: 300px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--bgColor1);
+    border: 1px solid var(--white);
+    border-radius: 100px;
+    opacity: 70%;
+    position: relative;
+}
+
+.go img {
+    width: 22px;
+    color: var(--white);
+}
+
+.btn-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+}

@@ -17,8 +17,12 @@
 }
 
 html {
-    background-color: var(--bgColor);
     -webkit-tap-highlight-color: transparent;
+    background-image: url('../img/Jackys-BG.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--bgColor);
 }
 
 .flex-row-center {
@@ -40,10 +44,10 @@ body {
 }
 
 main {
-    gap: 25px;
+    gap: 50px;
 }
 
-.InnoGrowth-Logo {
+.JackysUrban-Logo {
     width: 355px;
 }
 
@@ -72,14 +76,14 @@ main {
 
 /* x-sm */
 @media (width <=512px) {
-    .InnoGrowth-Logo {
+    .JackysUrban-Logo {
         width: 300px;
     }
 }
 
 /* sm */
 @media (512px < width <=640px) {
-    .InnoGrowth-Logo {
+    .JackysUrban-Logo {
         width: 350px;
     }
 }
