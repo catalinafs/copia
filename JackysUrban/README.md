@@ -1,4 +1,3 @@
-# Jacky's Urban Linktree
+# Jacky's Urban | ContenTree
 
-(descripcion por el momento, cambiar cuando halla descripcion)
-InnoGrowth Solutions is a company that offers specialized consulting services for entrepreneurs and companies, multi-area consulting, organizational improvement, business development, guaranteed sales and ecommerce. Enter our [linktree](https://contentree.vercel.app/Innogrowth) and discover everything we can offer you!
+Descubre el estilo urbano y auténtico con [Jacky's Urban](https://contentree.vercel.app/JackysUrban/)! Encuentra las últimas tendencias en moda urbana para hombres y mujeres. Desde prendas de vestir hasta accesorios, nuestra colección te ofrece una combinación perfecta de comodidad, estilo y originalidad. Explora nuestro catálogo ahora y encuentra la pieza perfecta para expresar tu individualidad en la vida cotidiana.
