@@ -1,0 +1,83 @@
+:root {
+    --bgColor: #000000;
+    --white: #F4F1E9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+    background-color: var(--bgColor);
+}
+
+.flex-row-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+body {
+    min-height: 100dvh;
+}
+
+main {
+    gap: 75px;
+}
+
+.Attemporal-Logo {
+    width: 260px;
+}
+
+.buttons {
+    gap: 28px;
+}
+
+.button {
+    width: 300px;
+    height: 46px;
+    padding-left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    border-radius: 100px;
+    border: 2px solid var(--white);
+    position: relative;
+}
+
+.button img {
+    width: 22px;
+}
+
+/* Media Queries */
+
+/* x-sm */
+@media (width <=512px) {
+    .Attemporal-Logo {
+        width: 140px;
+    }
+}
+
+/* sm */
+@media (512px < width <=640px) {
+    .Attemporal-Logo {
+        width: 150px;
+    }
+}
