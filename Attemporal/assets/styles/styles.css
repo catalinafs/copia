@@ -1,5 +1,5 @@
 :root {
-    --bgColor: #1C1C1A;
+    --bgColor: #000000;
     --white: #FFFFFF;
 }
 
@@ -61,11 +61,8 @@ main {
     position: relative;
 }
 
-.icono-medium {
-    width: 22px;
-}
-
-.button img {
+.button img,
+.button i {
     width: 22px;
 }
 
@@ -74,13 +71,13 @@ main {
 /* x-sm */
 @media (width <=512px) {
     .Attemporal-Logo {
-        width: 300px;
+        width: 250px;
     }
 }
 
 /* sm */
 @media (512px < width <=640px) {
     .Attemporal-Logo {
-        width: 350px;
+        width: 300px;
     }
 }
