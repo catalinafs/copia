@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bgColor: #2E193E;
+    --white: #F4F1E9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+    background-image: url('../img/Kapital-BG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-row-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+body {
+    min-height: 100dvh;
+}
+
+main {
+    gap: 75px;
+}
+
+.Kapital-Logo {
+    width: 80%;
+}
+
+.buttons {
+    gap: 28px;
+}
+
+.button {
+    width: 300px;
+    height: 46px;
+    padding-left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    border-radius: 100px;
+    border: 3px solid var(--white);
+    position: relative;
+}
+
+.button img {
+    width: 22px;
+}
+
+/* Media Queries */
+
+/* x-sm */
+@media (width <=512px) {
+    .Britannia-Logo {
+        width: 140px;
+    }
+}
+
+/* sm */
+@media (512px < width <=640px) {
+    .Britannia-Logo {
+        width: 150px;
+    }
+}
