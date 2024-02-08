@@ -1,3 +1,3 @@
-# Britannia | ContenTree
+# Kapital Life | ContenTree
 
-Explora la colección de ropa Old Money de [Britannia](https://contentree.vercel.app/Britannia/), donde el estilo clásico se encuentra con la comodidad del día a día. Desde camisas hasta jeans de alta calidad, nuestra selección está diseñada para aquellos que buscan un toque de elegancia en su estilo cotidiano. Descubre la fusión perfecta entre lo casual y lo sofisticado, solo en **Britannia**.
+En [Kapital Life](https://contentree.vercel.app/KapitalLife/), entendemos la importancia de proteger lo que más valoras: tu familia. Descubre nuestra gama de seguros diseñados pensando en ti y en los tuyos, con un toque cálido y familiar. Desde seguros de vida hasta protección de hogar, estamos aquí para brindarte tranquilidad y seguridad en cada etapa de la vida familiar. Confía en **Kapital Life** para proteger lo más importante: tu familia.
