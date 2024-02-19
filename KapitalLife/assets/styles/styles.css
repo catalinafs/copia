@@ -47,7 +47,7 @@ main {
 }
 
 .Kapital-Logo {
-    width: 80%;
+    width: 320px;
 }
 
 .buttons {
@@ -75,14 +75,14 @@ main {
 
 /* x-sm */
 @media (width <=512px) {
-    .Britannia-Logo {
-        width: 140px;
+    .Kapital-Logo {
+        width: 320px;
     }
 }
 
 /* sm */
 @media (512px < width <=640px) {
-    .Britannia-Logo {
-        width: 150px;
+    .Kapital-Logo {
+        width: 320px;
     }
 }
