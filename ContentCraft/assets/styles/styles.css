@@ -11,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    font-weight: normal;
 }
 
 body{
@@ -66,6 +67,10 @@ a{
     font-size: 25px;
 }
 
+h2{
+    font-weight: bold;
+}
+
 .texto-hero p{
     font-size: 20px;
 }
@@ -103,6 +108,9 @@ a{
 }
 
 .texto-about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     text-align: center;
     width: 55vw;
     font-size: 20px;
