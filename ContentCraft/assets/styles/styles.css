@@ -14,7 +14,7 @@
 }
 
 body{
-    background: linear-gradient(var(--1),100px, var(--3));
+    background: linear-gradient(var(--1),500px, var(--3));
     background-repeat: no-repeat;
     color: var(--2);
 }
@@ -57,10 +57,38 @@ a{
     width: 40%;
     height: 50%;
     display: flex;
+    gap: 30px;
     flex-direction: column;
-    justify-content: space-around;
+    font-size: 25px;
 }
 
 .texto-hero p{
     font-size: 20px;
+}
+
+.texto-hero button{
+    font-size: 20px;
+    width: 20vw;
+    height: 6vh;
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: var(--2);
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.contenttree-section{
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto-contenttree{
+    font-size: 20px;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
