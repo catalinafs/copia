@@ -15,7 +15,7 @@
 }
 
 body{
-    background: linear-gradient(var(--1),10%, var(--3), var(--1));
+    background: linear-gradient(var(--1), 10%, var(--3), var(--1));
     background-repeat: no-repeat;
     color: var(--2);
 }
@@ -60,9 +60,9 @@ a{
 }
 
 .hero{
-    margin: 100px 60px;
+    margin: 100px 0px 0px 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -76,7 +76,7 @@ a{
     display: flex;
     gap: 30px;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 h2{
