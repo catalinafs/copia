@@ -23,6 +23,10 @@ header{
     margin: 40px 70px;
 }
 
+main{
+    background-image: url("./ContentCraft/assets/img/Capa 77 1.svg");
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -91,4 +95,15 @@ a{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.about-us-section{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-about-us{
+    text-align: center;
+    width: 55vw;
+    font-size: 20px;
 }
