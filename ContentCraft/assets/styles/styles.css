@@ -15,7 +15,7 @@
 }
 
 body{
-    background: linear-gradient(var(--1),500px, var(--3));
+    background: linear-gradient(var(--1),10%, var(--3), var(--1));
     background-repeat: no-repeat;
     color: var(--2);
 }
@@ -24,8 +24,20 @@ header{
     margin: 40px 70px;
 }
 
+.background-img{
+    position: absolute;
+    left: 140px;
+    top: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 main{
-    background-image: url("./ContentCraft/assets/img/Capa 77 1.svg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 }
 
 nav{
@@ -33,7 +45,7 @@ nav{
     justify-content: space-between;
 }
 
-ul{
+.navbar-options ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -114,4 +126,48 @@ h2{
     text-align: center;
     width: 55vw;
     font-size: 20px;
+}
+
+footer{
+    margin: 200px 30px 40px 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.siguenos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.icons ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.legal{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.copyright{
+    text-align: center;
+    margin: 50px;
 }
