@@ -1,0 +1,15 @@
+VARIABLES DE LA LANDING DE CONTENTTREE
+
+COLORES{
+    color negro
+    color blanco
+    color del fondo
+}
+
+VARIABLES DE TAMAÑO {
+    tamaño de fuente titulo 1 = 30px
+    tamaño de fuente titulo 2 = 20px
+    tamaño de imagen backgrpund = 850px
+    tamaño de imagen 1 = 600px
+    tamaño de imagen 2 = 450px
+}
