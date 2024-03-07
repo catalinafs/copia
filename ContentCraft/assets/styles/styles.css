@@ -10,22 +10,51 @@
     --background: #19192C;
 
     /* ================ TAMAÑOS ================ */
-    --font-size-title-1: 1.5rem;
+    --font-size-title-1: 1.75rem;
     --font-size-title-2: 1.25rem;
+    --font-size-text: 1rem;
+    --font-size-icon: 2rem;
     --width-background-image: 1000px;
     --width-image-1: 600px;
     --width-image-2: 450px;
+    --width-image-logo: 100px;
 }
 
 /* ================ RESPONSIVE STYLES ================ */
 /* sm */
 @media (width <=640px) {
-    
+    :root {
+        --font-size-title-1: .75rem;
+        --font-size-title-2: .75rem;
+        --font-size-text: .75rem;
+        --font-size-icon: 1.25rem;
+        --width-background-image: 1000px;
+        --width-image-1: 200px;
+        --width-image-2: 250px;
+        --width-image-logo: 60px;
+    }
+
+    .texto-about-us{
+        width: 80px;
+    }
 }
 
 /* md */
 @media (640px < width <=768px) {
-    
+    :root {
+        --font-size-title-1: 1rem;
+        --font-size-title-2: .75rem;
+        --font-size-text: .75rem;
+        --font-size-icon: 2rem;
+        --width-background-image: 1000px;
+        --width-image-1: 200px;
+        --width-image-2: 250px;
+        --width-image-logo: 80px;
+    }
+
+    .texto-about-us{
+        width: 180px;
+    }
 }
 
 /* lg */
@@ -35,7 +64,16 @@
 
 /* xl */
 @media (1010px < width <=1400px) {
-    
+    :root {
+        --font-size-title-1: 1.75rem;
+        --font-size-title-2: 1.25rem;
+        --font-size-text: 1rem;
+        --font-size-icon: 2rem;
+        --width-background-image: 1000px;
+        --width-image-1: 600px;
+        --width-image-2: 450px;
+        --width-image-logo: 100px;
+    }
 }
 
 /* 2xl */
@@ -77,6 +115,10 @@ nav{
     height: 60px;
 }
 
+nav a {
+    font-size: var(--font-size-title-1);
+}
+
 img{
     display: block;
     max-width: 100%;
@@ -97,6 +139,14 @@ footer{
 footer h2{
     font-weight: normal;
     font-size: var(--font-size-title-1);
+}
+
+footer p{
+    font-size: var(--font-size-text);
+}
+
+i{
+    font-size: var(--font-size-icon);
 }
 
 /* ================ REUSABLE CSS CLASSES ================ */
@@ -124,6 +174,10 @@ footer h2{
     align-items: center;
     gap: 40px;
     height: 100%;
+}
+
+.logo-content {
+    width: var(--width-image-logo);
 }
 
 /* ================ HERO ================ */
@@ -224,4 +278,5 @@ footer h2{
 .copyright{
     text-align: center;
     margin: 50px;
+    font-size: var(--font-size-title-2);
 }
