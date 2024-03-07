@@ -10,9 +10,9 @@
     --background: #19192C;
 
     /* ================ TAMAÑOS ================ */
-    --font-size-title-1: 30px;
-    --font-size-title-2: 20px;
-    --width-background-image: 850px;
+    --font-size-title-1: 1.5rem;
+    --font-size-title-2: 1.25rem;
+    --width-background-image: 1000px;
     --width-image-1: 600px;
     --width-image-2: 450px;
 }
@@ -77,13 +77,15 @@ nav{
     height: 60px;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 a{
     text-decoration: none;
     color: var(--white);
-}
-
-h2{
-    font-weight: bold;
 }
 
 footer{
@@ -98,6 +100,9 @@ footer h2{
 }
 
 /* ================ REUSABLE CSS CLASSES ================ */
+.section-title{
+    font-weight: bold;
+}
 
 .background-img img{
     width: var(--width-background-image);
@@ -105,8 +110,7 @@ footer h2{
 
 .background-img{
     position: absolute;
-    left: 260px;
-    top: 200px;
+    width: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -118,7 +122,7 @@ footer h2{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 30vw;
+    gap: 40px;
     height: 100%;
 }
 
@@ -127,10 +131,6 @@ footer h2{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.imagen-hero img{
-    width: var(--width-image-1);
 }
 
 .texto-hero{
@@ -154,10 +154,14 @@ footer h2{
     margin-left: 20px;
 }
 
+.imagen-hero{
+    width: var(--width-image-1);
+}
+
 /* ================ CONTENT TREE ================ */
 .contenttree-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -184,7 +188,7 @@ footer h2{
     flex-direction: column;
     gap: 20px;
     text-align: center;
-    width: 55vw;
+    width: 780px;
     font-size: var(--font-size-title-2);
 }
 
