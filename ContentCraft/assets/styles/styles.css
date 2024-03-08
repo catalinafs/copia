@@ -18,6 +18,8 @@
     --width-image-1: 600px;
     --width-image-2: 450px;
     --width-image-logo: 100px;
+    --width-hero-button: 50%;
+    --width-container-about-us: 45rem;
 }
 
 /* ================ RESPONSIVE STYLES ================ */
@@ -32,10 +34,7 @@
         --width-image-1: 200px;
         --width-image-2: 250px;
         --width-image-logo: 60px;
-    }
-
-    .texto-about-us{
-        width: 80px;
+        --width-container-about-us: 20rem;
     }
 }
 
@@ -45,21 +44,30 @@
         --font-size-title-1: 1rem;
         --font-size-title-2: .75rem;
         --font-size-text: .75rem;
-        --font-size-icon: 2rem;
+        --font-size-icon: 1.25rem;
         --width-background-image: 1000px;
         --width-image-1: 200px;
         --width-image-2: 250px;
         --width-image-logo: 80px;
-    }
-
-    .texto-about-us{
-        width: 180px;
+        --width-hero-button: 50%;
+        --width-container-about-us: 30rem;
     }
 }
 
 /* lg */
 @media (768px < width <=1010px) {
-    
+    :root {
+        --font-size-title-1: 1.25rem;
+        --font-size-title-2: .9rem;
+        --font-size-text: 1rem;
+        --font-size-icon: 1.5rem;
+        --width-background-image: 1000px;
+        --width-image-1: 250px;
+        --width-image-2: 250px;
+        --width-image-logo: 90px;
+        --width-hero-button: 60%;
+        --width-container-about-us: 30rem;
+    }
 }
 
 /* xl */
@@ -73,6 +81,7 @@
         --width-image-1: 600px;
         --width-image-2: 450px;
         --width-image-logo: 100px;
+        --width-container-about-us: 45rem;
     }
 }
 
@@ -131,7 +140,7 @@ a{
 }
 
 footer{
-    margin: 200px 30px 40px 30px;
+    margin: 100px 30px 0px 30px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -198,7 +207,7 @@ i{
 
 .texto-hero button{
     font-size: var(--font-size-title-2);
-    width: 50%;
+    width: var(--width-hero-button);
     height: 6vh;
     border-radius: 20px;
     border-width: 0px;
@@ -242,7 +251,7 @@ i{
     flex-direction: column;
     gap: 20px;
     text-align: center;
-    width: 780px;
+    width: var(--width-container-about-us);
     font-size: var(--font-size-title-2);
 }
 
